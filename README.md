@@ -1,2 +1,2 @@
-# 63CLC_MobileDev
+# 63CLC2_MobileDev
 to store android project
