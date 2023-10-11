@@ -44,6 +44,7 @@
                 android:textSize="17sp" />
 
             <EditText
+                android:id="@+id/height"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="100px"
@@ -60,11 +61,12 @@
                 android:layout_marginStart="100px"
                 android:layout_marginTop="50px"
                 android:gravity="center|left"
-                android:text="Your weigh in KG"
+                android:text="Your weight in KG"
                 android:textColor="@color/black"
                 android:textSize="17sp" />
 
             <EditText
+                android:id="@+id/weight"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="100px"
@@ -75,6 +77,7 @@
                 android:textSize="20dp" />
 
             <Button
+                android:id="@+id/calculate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="100px"
@@ -91,6 +94,7 @@
                 android:textSize="24sp" />
 
             <TextView
+                android:id="@+id/view_result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -99,6 +103,7 @@
                 android:textSize="24sp" />
 
             <TextView
+                android:id="@+id/view_result1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
