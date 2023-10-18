@@ -15,12 +15,14 @@
         android:layout_height="wrap_content">
 
         <EditText
+            android:id="@+id/number1"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_weight="1"
             android:text="10" />
 
         <EditText
+            android:id="@+id/number2"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_weight="1"
@@ -37,7 +39,7 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/add"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -45,7 +47,7 @@
             tools:textSize="24sp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/minus"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -53,7 +55,7 @@
             tools:textSize="24sp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/multi"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -61,7 +63,7 @@
             tools:textSize="24sp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/divide"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -71,6 +73,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_weight="1"
