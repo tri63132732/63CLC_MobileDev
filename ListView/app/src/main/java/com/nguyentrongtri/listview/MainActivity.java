@@ -13,32 +13,32 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    ListView baihat;
-    ArrayList dsbaihat;
+    ListView monan;
+    ArrayList dsmonan;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findcontrols();
-        dsbaihat = new ArrayList<String>();
-        dsbaihat.add("Tien quan ca");
-        dsbaihat.add("Cuon theo lan gio");
-        dsbaihat.add("Lop chung minh");
-        dsbaihat.add("");
+        dsmonan = new ArrayList<String>();
+        dsmonan.add("KFC");
+        dsmonan.add("Mì ly");
+        dsmonan.add("Cơm chiên");
+        dsmonan.add("Rau trộn");
         ArrayAdapter<String> adapterBH;
-        adapterBH = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line,dsbaihat);
-        baihat.setAdapter(adapterBH);
+        adapterBH = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line,dsmonan);
+        monan.setAdapter(adapterBH);
 
-        baihat.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        monan.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String itemChon= dsbaihat.get(i).toString();
-                String thongBao= "Ban chon bai:" + itemChon;
+                String itemChon= dsmonan.get(i).toString();
+                String thongBao= "Bạn chọn món:" + itemChon;
                 Toast.makeText(MainActivity.this,thongBao,Toast.LENGTH_SHORT).show();
             }
         });
     }
     public void findcontrols(){
-        baihat=findViewById(R.id.listbaihat);
+        monan=findViewById(R.id.listmonan);
     }
 }
