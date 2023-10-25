@@ -55,7 +55,7 @@ public class MonAnAdapter extends BaseAdapter {
         }
         MonAn foodI=dsMonAn.get(i);
         itemControlHolder.textViewName.setText(foodI.getName());
-        itemControlHolder.textViewDescription.setText("Population"+foodI.getDesciption());
+        itemControlHolder.textViewDescription.setText("Giới thiệu"+foodI.getDesciption());
         int resImageID= context.getResources().getIdentifier(
                 foodI.getDesciption(),"mipmap",context.getPackageName()
         );
