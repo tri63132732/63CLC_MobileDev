@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "598737813156",
+    "project_id": "android-projects-be875",
+    "storage_bucket": "android-projects-be875.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598737813156:android:91c4b9b90f8206882a3031",
+        "android_client_info": {
+          "package_name": "com.nguyentrongtri.quanlychitieu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUQ4T66ww9s0OqdaEWjgeJFAnQHJUAY9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
