@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1070382029253",
+    "project_id": "todolist-2b784",
+    "storage_bucket": "todolist-2b784.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070382029253:android:62a75517ce810c913e13ac",
+        "android_client_info": {
+          "package_name": "com.nguyentrongtri.todolist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ7ZgmbZKB_lbwVPUAtienrXt6bD7TgJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
